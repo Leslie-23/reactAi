@@ -1,0 +1,22 @@
+{
+  "name": "reactai",
+  "version": "1.0.0",
+  "description": "```\r gpt3-react-app/\r ├── .env\r ├── index.js\r ├── package.json\r ├── client/\r │   ├── public/\r │   │   ├── index.html\r │   │   ├── favicon.ico\r │   │   ├── manifest.json\r │   ├── src/\r │   │   ├── App.css\r │   │   ├── App.js\r │   │   ├── App.test.js\r │   │   ├── index.css\r │   │   ├── index.js\r │   │   ├── logo.svg\r │   │   ├── serviceWorker.js\r │   │   ├── setupTests.js\r │   ├── package.json\r │   ├── README.md\r ├── README.md\r ```",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.53.2"
+  }
+}
